@@ -1,3 +1,5 @@
+'use strict';
+
 // load Todo model
 var Todo = require('./models/todo');
 

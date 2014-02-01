@@ -1,3 +1,5 @@
+'use strict';
+
 // include mongoose for model 
 var mongoose = require('mongoose');
 

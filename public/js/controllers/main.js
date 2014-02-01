@@ -1,3 +1,5 @@
+'use strict';
+
 // todo main controller
 angular.module('todoController', [])
 

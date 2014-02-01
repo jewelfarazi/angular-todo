@@ -1,3 +1,5 @@
+'use strict';
+
 // todo services
 angular.module('todoService', [])
  	// super simple service
