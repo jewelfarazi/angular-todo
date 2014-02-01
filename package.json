@@ -2,7 +2,7 @@
   "name": "angular-todo-app",
   "version": "0.0.1",
   "description": "Todo App with node.js and angular.js [frontend]",
-  "main": "web.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

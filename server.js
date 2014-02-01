@@ -3,7 +3,8 @@
 // modules =================================================
 var express  = require('express');
 var app      = express(); 								// create our app w/ express
-var mongoose = require('mongoose'); 					// mongoose for mongodb
+var mongoose = require('mongoose');
+var logfmt   = require("logfmt"); 					// mongoose for mongodb
 var port  	 = process.env.PORT || 3000; 				// set the port
 var database = require('./config/database'); 			// load the database config
 
@@ -11,6 +12,7 @@ var database = require('./config/database'); 			// load the database config
 mongoose.connect(database.url); // connect to our mongoDB database 
 
 app.configure(function() {
+	app.use(logfmt.requestLogger());
 	app.use(express.static(__dirname + '/public')); 	// set the static files location /public/img will be /img for users
 	app.use(express.logger('dev')); 					// log every request to the console
 	app.use(express.bodyParser()); 						// pull information from html in POST
