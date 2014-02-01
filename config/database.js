@@ -2,5 +2,5 @@
 
 // mongoDB databse URL
 module.exports = {
-	url : 'mongodb://localhost/angular-todo'
+	url : 'mongodb://atodo:test@ds027699.mongolab.com:27699/angular-todo'
 }
