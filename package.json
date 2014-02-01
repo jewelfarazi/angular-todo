@@ -1,8 +1,26 @@
 {
-  "name": "starter-node-angular",
-  "main": "server.js",
+  "name": "angular-todo-app",
+  "version": "0.0.1",
+  "description": "Todo App with node.js and angular.js [frontend]",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "node",
+    "express",
+    "angular",
+    "heroku"
+  ],
+  "author": "jewel farazi",
+  "license": "BSD",
   "dependencies": {
+    "logfmt": "~0.18.1",
     "express": "latest",
     "mongoose": "latest"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }
