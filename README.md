@@ -1,7 +1,7 @@
 angular-todo
 ============
 
-Angular ToDo app with CRUD operation at the backend on NODE.JS
+AngularJS single page ToDo App with CRUD operation at the backend on NODE.JS and MongoDB
 
 Demo
 ---

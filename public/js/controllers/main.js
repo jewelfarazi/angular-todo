@@ -8,7 +8,7 @@ angular.module('todoController', [])
 
 		$scope.formData = {};
 
-		$scope.homeTag = 'Angular Todo App';
+		$scope.homeTag = 'AngularJS Todo App';
 
 		// get all todos from db
 		Todos.get()
