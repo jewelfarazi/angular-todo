@@ -145,7 +145,7 @@ module.exports = function(app) {
 
 	// FRONTEND ROUTES =====================
 	// route to handle all angular requests
-	app.get('/angulartodo', function(req, res) {
+	app.get('/', function(req, res) {
 		res.sendfile('./public/angulartodo.html');
 	});
 
@@ -154,6 +154,7 @@ module.exports = function(app) {
 		//res.sendfile('./public/single.html');
 
 		res.send('Hello guys!');
+		//res.redirect('/')
 	});
 
 };
