@@ -27,3 +27,9 @@ node web.js
 ```
 http://localhost:3000
 ```
+
+###CHECK OUT FOR ANOTHER ONE WITH EXTENTED FEATURE!
+---
+[https://github.com/joaquindev/yet-the-same-angular-todo-app](https://github.com/joaquindev/yet-the-same-angular-todo-app)
+
+###Enjoy this SPA!
