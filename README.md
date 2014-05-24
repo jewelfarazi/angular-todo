@@ -28,7 +28,7 @@ node web.js
 http://localhost:3000
 ```
 
-###CHECK OUT FOR ANOTHER ONE WITH EXTENTED FEATURE!
+###Check out for another SPA with extended feature!
 ---
 [https://github.com/joaquindev/yet-the-same-angular-todo-app](https://github.com/joaquindev/yet-the-same-angular-todo-app)
 
